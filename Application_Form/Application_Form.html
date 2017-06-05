@@ -1,0 +1,113 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Job Search </title>
+        <script src="js/assign5.js"></script>
+        <link rel="stylesheet" href="css/assign5.css" />
+        <script src="js/assign5.js"></script>
+    </head>
+    <body>
+        <form name="signup" method="POST" action="https://httpbin.org/post" onsubmit="return formValidation(signup)">
+        <div id="jobsearch">
+            <h1> <label>JobSearch<span>.com</span></label></h1>
+        </div>
+        <div class="purpose">
+            <h2> Create Your Account</h2>
+        </div>
+        <div class="tag">
+            <span>* Required information</span>
+        </div>
+        <div class="sectionhead">
+                &nbsp;&nbsp;&nbsp;Basic Information
+        </div>
+        <div class="sectionbackground"> 
+            <label class="first">Email <span id="star">*</span></label> <input class="type1" type="email" name="email" required autofocus><br/>
+            <label class="first">Password <span id="star">*</span></label> <input class="type1" type="password" name="password" onchange="validatePassword(password)"><br/>
+            <div id="passwordErrField"></div><br> 
+            <label class="first">Retype Password <span id="star">*</span></label> <input class="type1" type="password" name="passwordRetype" onchange="validatePasswordRetype(passwordRetype,password)"><br/>
+            <div id="passwordRetypeErrField"></div>
+            <label class="first">First Name <span id="star">*</span></label> <input class="type1" type="text" name="firstName"  onchange = "validateFirstName(firstName)" ><br/>
+            <div id="firstNameErrField"></div><br/>
+            <label class="first">Last Name <span id="star">*</span></label> <input class="type1" type="text" name="lastName"  onchange = "validateLastName(lastName)"><br/>
+            <div id="lastNameErrField"></div><br/>
+            <label class="first">Phone Number <span id="star">*</span></label> <input class="type1" type="tel" name="phoneNo" placeholder="444-444-4444" onchange="validatePhoneNo(phoneNo)"> <br/>
+             <div id="phoneNoErrField"></div><br/>
+            <label class="first">Address <span id="star">*</span></label> <input class="type1" type="text" name="address" required><br/>
+            <label class="first">City <span id="star">*</span></label> <input class="type1" type="text" name="city" required><br>
+            <label class="first">Province <span id="star">*</span></label> 
+            <select name="province">
+                <optgroup label="Provinces">
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MN">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                </optgroup>
+                <optgroup label="Territories">
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="YT">Yukon</option>
+                </optgroup>
+            </select><br/>
+            <label class="first">Country <span id="star">*</span></label> <input class="type1" type="text" name="country" list="country">
+            <datalist id="country">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="The United States">The United States</option>
+            </datalist>
+        </div>
+        <div class="sectionhead">
+                &nbsp;&nbsp;&nbsp;Education
+        </div>
+        <div class="sectionbackground">
+            <label class="first">School <span id="star">*</span></label> <input class="type1" type="text" name="school" required><br/>
+            <label class="first">Program <span id="star">*</span></label> <input class="type1" type="text" name="program" required><br />
+            <label class="first">Education Level <span id="star">*</span></label> 
+            <select name="Education Level">
+                <option value="0">-select-</option>
+                <option value="Technical Diploma">Technical Diploma</option>
+                <option value="College Diploma">College Diploma</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="Others">Others</option>
+            </select><br />
+            <label class="first"></label> <fieldset>
+                <legend>Educational Status</legend>
+                <input type="radio" name="educationalStatus" value="1" onchange="validateEducation(educationalStatus)"> Graduated<br>
+                <input type="radio" name="educationalStatus" value="2" onchange="validateEducation(educationalStatus)"> Current Enrolled<br>
+                <input type="radio" name="educationalStatus" value="3" onchange="validateEducation(educationalStatus)"> Did Not Graduate<br>
+            </fieldset><br>
+            <div id="educationErrField"></div><br/>
+            <label class="first">Graduation Date <span id="star">*</span></label> <input class="type1" type="text" name="graduationDate" required><br/>
+        </div>
+        <div class="sectionhead">
+                &nbsp;&nbsp;&nbsp;Work Experience
+        </div>
+        <div class="sectionbackground">
+            <label class="first">Employer: </label> <input class="type1" type="text" name="employer"><br/>
+            <label class="first">Job Title: </label> <input class="type1" type="text" name="jobTitle"><br/>
+            <label id="upper" class="first">Job Duty: </label> <textarea name="job duty" class="first"></textarea><br>
+            <label class="first">Worked Year: </label> <input class="type1" type="number" name="worked year" min="1" max="20"><br/>
+        </div>
+        <div class="sectionhead">
+                &nbsp;&nbsp;&nbsp;Attachments
+        </div>
+        <div class="sectionbackground">
+            <label class="first">Attachments: </label> <input class="type1" type="file" name="attachments" multiple ><br/>
+        </div>
+        <div class="submit">
+            <input type="reset" value="Reset" id="clear"> &nbsp;
+            <input type="submit" value="Apply" id="go"><br>
+        </div>
+
+        </form>
+    </body>
+</html>

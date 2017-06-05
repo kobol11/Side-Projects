@@ -1,0 +1,120 @@
+/* It selects the <body> element and sets its background color */
+body {
+    background-color: lightgrey;
+}
+
+/* It selects the <form> element and set its width and margin properties*/
+form {
+    max-width: 600px;
+    margin: 5px auto;
+    background-color: mintcream;
+    border: 1px solid mintcream;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+
+/* It selects an element with an id "jobsearch" and sets its height */
+#jobsearch {
+height: 50px;
+}
+
+/* It selects an <h1> and sets its properties */
+h1 {
+    height: 48px;
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    margin-top: 0;
+}
+
+/* It selects a <span> element nested in an <h1> element and sets its font-size and color */
+h1 span {
+    font-size: 14px;
+    color: white;
+}
+
+/* It selects a <label> element nested in an <h1> element and sets its positioning properties */
+h1 label {
+    position: absolute;
+    bottom: 0;
+}
+
+/* It selects a <div> element with a class "tag" and set its color an margin properties */
+div.tag  {
+    color: red;
+    margin: 20px 0;
+}
+
+/* It selects a <div> element with a class "sectionhead" and set its background color, font-weight and top margin  */
+div.sectionhead {
+    background-color: dimgrey;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* It selects a <div> element with a class "sectionbackground" and set its background color */
+div.sectionbackground {
+    background-color: whitesmoke;
+}
+
+/* It selects an element with an id "star" and set its color */
+#star {
+    color: red;
+}
+
+/* It sets the following elements and set their width, margin, size and border-radius properties */
+input.type1, select, fieldset, textarea {
+    width: 250px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 4px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 3px 10px 0px rgba(50, 50, 50, 0.75); 
+}
+
+/* It selects every <label> element with class "first", while setting its width, display and text-alignment properties*/
+label.first {
+   display: inline-block;
+    width:150px;
+    text-align: right;
+    margin-left: 50px;
+}
+
+/* It selects a <fieldset> element and sets its display and margin properties */
+fieldset {
+    display: inline-block;
+    margin-left: 0;
+}
+
+/* It selects an element with id "upper" and sets its position and alignment properties */
+#upper {
+    position: relative;
+    vertical-align: top;
+}
+
+/* It selects a <div> element with class "attachment" and sets its width and margin properties */
+div.submit {
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#go, #clear {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 75px;
+    color: antiquewhite;
+    background-color: red;
+    -webkit-box-shadow: 5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
