@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Perishable.h
+// Version 1.0
+// Date 6th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// Perishable Class is derived from NonPerishable class
+
 #ifndef ICT_PERISHABLE_H__
 #define ICT_PERISHABLE_H__
 #include "NonPerishable.h"

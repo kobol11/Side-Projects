@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File NonPerishable.cpp
+// Version 1.0
+// Date 6th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains implementation for the NonPerishable Class functions
+
 #define _CRT_SECURE_NO_WARNINGS
 // lib includes
 #include <cstring>

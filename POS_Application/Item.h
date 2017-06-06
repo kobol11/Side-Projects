@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Item.h
+// Version 1.0
+// Date 19th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This class is responsible for encapsulating a general PosIO item
+
 #ifndef ICT_ITEM_H__
 #define ICT_ITEM_H__
 #include <fstream>

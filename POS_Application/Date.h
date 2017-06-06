@@ -1,3 +1,15 @@
+// OOP244 Final Project
+// File Date.h
+// Version 1.0
+// Date 13th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains the Date class definiton
+// The Date class encapsulates a single date and time value in the form of five integers: year, month, day, hour and minute
+
+
+
+
 // compilation safegaurds
 #ifndef ICT_DATE_H_
 #define ICT_DATE_H_

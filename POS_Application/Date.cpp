@@ -1,3 +1,12 @@
+//OOP244 Final Project
+// File Date.cpp
+// Version 1.0
+// Date 13th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains the definiton for the Date class functions
+// The Date class encapsulates a single date and time value in the form of five integers: year, month, day, hour and minute
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <iomanip>
 #include <iostream>

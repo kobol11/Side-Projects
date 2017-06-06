@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Error.h
+// Version 1.0
+// Date 13th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// The Error class encapsulates error processing using a dynamic C-style string and flag for the error state of other classes
+
 // compilation safegaurds
 #ifndef ICT_ERROR_H_
 #define ICT_ERROR_H_

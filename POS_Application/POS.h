@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File POS.h
+// Version 1.0
+// Date 13th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// It contains some defined globally accessed values
+
 // compilation safeguards
 #ifndef POS_H_
 #define POS_H_

@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File PosIO.h
+// Version 1.0
+// Date 19th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// The PosIO class enforces inherited class to implement functions that work with fstream and iostream objects
+
 #ifndef ICT_POSIO_H__
 #define ICT_POSIO_H__
 // includes go here

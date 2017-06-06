@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File NonPerishable.h
+// Version 1.0
+// Date 6th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// NonPerishable class is derived from an Item Class
+
 #ifndef ICT_NONPERISHABLE_H__
 #define ICT_NONPERISHABLE_H__
 #include "Item.h"

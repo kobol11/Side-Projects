@@ -1,3 +1,10 @@
+//OOP244 Final Project
+// File PosApp.cpp
+// Version 1.0
+// Date 13th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains function implementation for PosApp class
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>

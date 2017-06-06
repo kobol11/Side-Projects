@@ -1,3 +1,12 @@
+//OOP244 Final Project
+// File PosApp.h
+// Version 1.0
+// Date 13th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// PosApp uses the previously created classes to manage the items in store and also works as a Point Of Sale system to
+// sell the items to customers
+
 #ifndef ICT_POSAPP_H__
 #define ICT_POSAPP_H__
 #include "Item.h"

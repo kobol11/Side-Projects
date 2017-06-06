@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Perishable.cpp
+// Version 1.0
+// Date 6th April, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains function implementation for the Perishable class
+
 #define _CRT_SECURE_NO_WARNINGS
 // lib includes
 #include <iostream>

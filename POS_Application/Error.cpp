@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Error.cpp
+// Version 1.0
+// Date 13th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains the definition of the Error class functions
+
 #define _CRT_SECURE_NO_WARNINGS 
 
 #include <cstring>

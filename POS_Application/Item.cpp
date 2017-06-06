@@ -1,3 +1,11 @@
+//OOP244 Final Project
+// File Item.cpp
+// Version 1.0
+// Date 19th March, 2017
+// Author Bolarinwa Komolafe Email:bkomolafe@myseneca.ca
+// Description
+// This file contains implementation for the Item Class functions 
+
 #define _CRT_SECURE_NO_WARNINGS  
 // Lib includes
 #include <iostream>
